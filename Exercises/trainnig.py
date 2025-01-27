@@ -2,23 +2,6 @@ from collections import defaultdict
 import operator
 import numpy as np
 
-""""""
-#----
-"""def FindIntersection(strArr):
-
-  first_string = list(map(int, strArr[0].split(',')))
-  last_string = list(map(int, strArr[1].split(',')))
-  result = list(set(first_string).intersection(last_string))
-  result.sort()
-  if not result:
-    return False
-  return result
-  
-
-# keep this function call here 
-input = ["1, 3, 77, 11, 17, 18", "13, 4, 9, 10"]
-print(FindIntersection(input))"""
-#----
 
 """""
 def QuestionsMarks(strParam):
@@ -223,58 +206,6 @@ for value in anagram_map.values():
   
 print(result)
 """
-
-"""
-def LongestWord(sen):
-
-  words_separately = []
-  words_separately = sen.split(' ')
-  dict_words_lenghts = {}
-
-  for words in words_separately:
-    if words.isalnum():
-      lenght = len(words)
-      if lenght not in dict_words_lenghts.keys():
-          dict_words_lenghts[lenght] = words
-  
-
-  keys = list(dict_words_lenghts.keys())
-  max_value = max(keys)
-  sen = dict_words_lenghts.get(max_value) 
-
-  return sen
-
-# keep this function call here 
-print(LongestWord("fun&!! time"))
-"""
-
-""""
-def BracketMatcher(strParam):
-
-  stack = []
-  count_open = 0
-  count_close = 0
-  for i in range(0, len(strParam)):
-    if strParam[i] == '(':
-      stack.append(strParam[i])
-      count_open = count_open + 1
-    elif strParam[i] == ')':
-      count_close = count_close + 1
-      if not len(stack) == 0:
-        stack.pop()
-      
-  
-  if len(stack) == 0 and count_open == count_close:
-    #Certo
-    return 1
-  else:
-    #Errado
-    return 0
-
-# keep this function call here 
-print(BracketMatcher("(hello (world))"))
-"""
-
 
 """
 Min Window Substring
