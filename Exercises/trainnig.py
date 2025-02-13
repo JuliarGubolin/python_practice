@@ -2,6 +2,7 @@ from collections import defaultdict
 import operator
 import numpy as np
 
+print(max(1, 5, 7))
 
 """""
 def QuestionsMarks(strParam):
