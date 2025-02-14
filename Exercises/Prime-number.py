@@ -14,5 +14,4 @@ def prime_number(number_to_check):
     
     return "It's prime"
 
-
-print(prime_number(153))
+print(prime_number(9))
