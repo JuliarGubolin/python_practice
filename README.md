@@ -6,5 +6,5 @@ I am also learning NUMPY library and following the CS50's course "Introduction T
 
 ## Observations!!
 
-I am not focusing in complete the challends fast or faster than most of the coders. My goal here is to improve my Python habilities and 
+I am not focusing in complete the challenges fast or faster than most of the coders. My goal here is to improve my Python habilities and 
 enhance my knowledge in this programming language in a pratical way.
