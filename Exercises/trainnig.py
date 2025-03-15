@@ -242,3 +242,6 @@ of K's characters will exist somewhere in the string N. Both strings will only c
 # keep this function call here 
 print(MinWindowSubstring(["ahffaksfajeeubsne", "jefaa"]))"""
 
+matriz = [[3, 4, 5], [5, 6, 7], [7, 6, 5]]
+for i in range(0, 3): 
+  print(matriz[i])
